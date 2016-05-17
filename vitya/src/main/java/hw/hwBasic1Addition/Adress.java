@@ -69,7 +69,7 @@ public class Adress {
     }
 
     public void viewAdress() {
-        System.out.println("Country : " + country);
+        System.out.println("Country  : " + country);
         System.out.println("City : " + city);
         System.out.println("Index : " + index);
         System.out.println("Street : " + street);
