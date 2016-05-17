@@ -7,6 +7,7 @@ import java.util.List;
 public class ListsExample {
     public static void main(String[] args) {
 
+
         /*Обьявление списков*/
         List<String> arrayList = new ArrayList<String>();
         List<String> linkedList = new LinkedList<String>();
