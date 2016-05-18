@@ -1,4 +1,4 @@
-package hw.hwBasic2Hw3;
+package hw.hwBasic2Hw4;
 
 /**
  * Created by User on 18.05.2016.
