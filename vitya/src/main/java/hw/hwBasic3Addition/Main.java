@@ -9,5 +9,6 @@ public class Main {
         extendClass.Print();
         System.out.println((char) 27 + "[33m"+extendClass.color + (char)27 + "[0m");
         System.out.println((char) 27 + "[36m"+extendClass.color + (char)27 + "[0m");
+        System.out.println((char) 27 + "[35m"+extendClass.colorNext + (char)27 + "[0m");
     }
 }
