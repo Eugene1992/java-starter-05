@@ -8,10 +8,13 @@ package hw.hwBasic3Hw2;
 //        Выведите информацию о том, как все ученики экземпляра класса ClassRoom умеют учиться, читать, писать, отдыхать.
 
 
-public class ClassRoom {
+public class ClassRoom extends Pupil {
+    public String Ivan;
+    public String Vasya;
+    public String Eva;
+    public String Artem;
 
     public ClassRoom() {
-
 
     }
 }
