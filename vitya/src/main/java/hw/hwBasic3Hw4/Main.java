@@ -20,7 +20,7 @@ public class Main {
             documentWorker.openDocument();
             documentWorker.editDocument();
             DocumentWorker up=new ExpertDocumentWorker();
-            System.out.println(up);
+
         }
                 if (input.equals("pro")) {
                     System.out.println("Вы выбрали режим Про");
