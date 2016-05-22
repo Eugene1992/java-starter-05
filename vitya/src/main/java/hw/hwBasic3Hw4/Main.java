@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         DocumentWorker documentWorker = new DocumentWorker();
-        ExpertDocumentWorker expertDocumentWorker=new ExpertDocumentWorker();
-        ProDocumentWorker proDocumentWorker=new ProDocumentWorker();
+        ExpertDocumentWorker expertDocumentWorker = new ExpertDocumentWorker();
+        ProDocumentWorker proDocumentWorker = new ProDocumentWorker();
 
 
         System.out.print("Введите ключ доступа к программе : ");
@@ -19,14 +19,14 @@ public class Main {
             System.out.println("Вы выбрали режим Експерт!");
             documentWorker.openDocument();
             documentWorker.editDocument();
-            DocumentWorker up=new ExpertDocumentWorker();
-
+            DocumentWorker up = new ExpertDocumentWorker();
+            expertDocumentWorker.saveDocument();
         }
-                if (input.equals("pro")) {
-                    System.out.println("Вы выбрали режим Про");
-                    //proDocumentWorker.saveDocument();
-                   // proDocumentWorker.editDocument();
-                }
-            }
+        if (input.equals("pro")) {
+            System.out.println("Вы выбрали режим Про");
+            //proDocumentWorker.saveDocument();
+            // proDocumentWorker.editDocument();
         }
+    }
+}
 

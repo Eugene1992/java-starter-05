@@ -14,15 +14,16 @@ package hw.hwBasic3Hw4;
 //        , если пользователь ввел номера ключа доступа pro и exp, то должен создаться экземпляр соответствующей версии класса, приведенный к базовому – DocumentWorker.
 
 
-
 public class DocumentWorker {
-    public void openDocument(){
+    public void openDocument() {
         System.out.println("Документ открыт");
     }
-    public void editDocument(){
+
+    public void editDocument() {
         System.out.println("Редактирование документа доступно в версии Про");
     }
-    public void saveDocument(){
+
+    public void saveDocument() {
         System.out.println("Сохранение документа доступно в версии Про");
     }
 }
