@@ -24,8 +24,14 @@ public class Main {
         }
         if (input.equals("pro")) {
             System.out.println("Вы выбрали режим Про");
-            //proDocumentWorker.saveDocument();
-            // proDocumentWorker.editDocument();
+            documentWorker.openDocument();
+            DocumentWorker down = new ProDocumentWorker();
+            proDocumentWorker.saveDocument();
+            proDocumentWorker.editDocument();
+        } else {
+            documentWorker.openDocument();
+            documentWorker.editDocument();
+            documentWorker.saveDocument();
         }
     }
 }
