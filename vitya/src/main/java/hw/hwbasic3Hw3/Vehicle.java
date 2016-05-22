@@ -12,7 +12,7 @@ public class Vehicle {
     public int Speed;
     public int Year;
 
-    public Vehicle(){
+    public Vehicle() {
 
     }
 
