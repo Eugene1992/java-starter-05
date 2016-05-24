@@ -9,6 +9,6 @@ public class Main {
         System.out.println("Sum solary" + " " + Employee.getBigSolar(Arrays.asList(new Employee("Max", 26, 500),
                 new classw.Employee("Vitya", 16, 5000), new Employee("Andrey", 26, 7000), new Employee("Losha", 25, 80000))
         ));
-        // /System.out.print("People age which comes in a range 20-30:" +""+ Employee.intervalAge());
+
     }
 }
