@@ -10,7 +10,7 @@ package hw.hwBasic7Addition;
 //строку с названием экземпляра, цветом и  стоимостью автомобиля.
 
 public enum Vehicles {
-    ;
+    FORD(2500),PORCHE(5000);
     private int price;
 
     Vehicles(int price) {
