@@ -1,5 +1,7 @@
 package hw.hwBasic7Hw2;
 
+import java.util.Arrays;
+
 /**
  * Created by User on 01.06.2016.
  */
@@ -9,7 +11,7 @@ package hw.hwBasic7Hw2;
 
 
 public enum Animals {
-    CAT(12);
+    CAT(12),DOG(25);
     private int age;
 
     Animals(int age) {
@@ -22,6 +24,7 @@ public enum Animals {
     //Не могу понять как вернуть экземпляр и возраст)
 
     public static void main(String[] args) {
-        System.out.println(Animals.CAT);
+
+        System.out.println(Arrays.toString(Animals.values()));
     }
 }
