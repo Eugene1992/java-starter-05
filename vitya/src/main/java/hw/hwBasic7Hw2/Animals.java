@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 
 public enum Animals {
-    CAT(12),DOG(25);
+    CAT(12), DOG(25);
     private int age;
 
     Animals(int age) {
@@ -19,7 +19,7 @@ public enum Animals {
     }
 
     public String toString() {
-       return this.name() + " " + age;
+        return this.name() + " " + age;
     }
     //Не могу понять как вернуть экземпляр и возраст)
 
