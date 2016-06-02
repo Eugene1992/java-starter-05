@@ -9,16 +9,19 @@ package hw.hwBasic7Hw2;
 
 
 public enum Animals {
-    ;
+    CAT(12);
     private int age;
 
     Animals(int age) {
         this.age = age;
     }
 
-    //public String toString() {
-
-        // return ;
-        // }
+    public String toString() {
+       return this.name() + " " + age;
+    }
     //Не могу понять как вернуть экземпляр и возраст)
+
+    public static void main(String[] args) {
+        System.out.println(Animals.CAT);
+    }
 }
